@@ -1,0 +1,136 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #fff;
+}
+
+h1 {
+	padding-top: 15px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    color: #009688;
+    height: 80px;
+    background-color: #E0F2F1;
+}
+
+.animation i {
+	color: #80CBC4;
+	font-size: 40px;
+}
+
+.round {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: linear-gradient(#B2DFDB, #80CBC4, #4DB6AC, #26A69A);
+  position: relative;
+  animation: mymove 5s infinite;
+}
+
+.one {
+    animation-timing-function: linear;
+}
+
+.two {
+    animation-timing-function: ease;
+}
+
+.three {
+	animation-timing-function: ease-in;
+}
+
+.four {
+	animation-timing-function: ease-out;
+}
+
+.five {
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}}
+
+h2 {
+	padding-top: 15px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    color: #009688;
+    height: 80px;
+    background-color: #E0F2F1;
+}
+
+.cursor {
+	align-items: center;
+	justify-content: center;
+	display: inline-block;
+	overflow: hidden;
+	width: 100%;
+	text-align: center;
+	color: #26A69A;
+    font-size: 20px;
+    font-weight: 400;
+}
+.first {
+	border-right: 1.5px solid #26A69A;
+	margin-left: 5px;
+	width: 32%;
+	float: left;
+}
+
+.second {
+	border-right: 1.5px solid #26A69A;
+	margin-left: 5px;
+	width: 32%;
+	float: left;
+}
+
+.third {
+	margin-left: 5px;
+	left: 90px;
+	width: 32%;
+	float: left;
+}
+
+.alias {cursor: alias;}
+.all-scroll {cursor: all-scroll;}
+.auto {cursor: auto;}
+.cell {cursor: cell;}
+.col-resize {cursor: col-resize;}
+.context-menu {cursor: context-menu;}
+.copy {cursor: copy;}
+.crosshair {cursor: crosshair;}
+.default {cursor: default;}
+.e-resize {cursor: e-resize;}
+.ew-resize {cursor: ew-resize;}
+.grab {cursor: -webkit-grab; cursor: grab;}
+.grabbing {cursor: -webkit-grabbing; cursor: grabbing;}
+.help {cursor: help;}
+.move {cursor: move;}
+.n-resize {cursor: n-resize;}
+.ne-resize {cursor: ne-resize;}
+.nesw-resize {cursor: nesw-resize;}
+.ns-resize {cursor: ns-resize;}
+.nw-resize {cursor: nw-resize;}
+.nwse-resize {cursor: nwse-resize;}
+.no-drop {cursor: no-drop;}
+.none {cursor: none;}
+.not-allowed {cursor: not-allowed;}
+.pointer {cursor: pointer;}
+.progress {cursor: progress;}
+.row-resize {cursor: row-resize;}
+.s-resize {cursor: s-resize;}
+.se-resize {cursor: se-resize;}
+.sw-resize {cursor: sw-resize;}
+.text {cursor: text;}
+.url {cursor: url(myBall.cur),auto;}
+.w-resize {cursor: w-resize;}
+.wait {cursor: wait;}
+.zoom-in {cursor: zoom-in;}
+.zoom-out {cursor: zoom-out;}
